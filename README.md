@@ -18,6 +18,6 @@ The **LittleLemon** project is a Django-based web application that provides APIs
 
 7. **Djoser Authentication Endpoints** - **Register**: - **URL**: `/auth/users/` - **Method**: `POST` - **Purpose**: Register a new user. - **Body**: `{ "username": "newuser", "email": "newuser@example.com", "password": "password123" }` - **Login**: - **URL**: `/auth/token/login/` - **Method**: `POST` - **Body**: `{ "username": "Lemon", "password": "Lemon@123" }` - **Logout**: - **URL**: `/auth/token/logout/` - **Method**: `POST` 
 
-# How to Run the Project: 1. Install dependencies: `pip install -r requirements.txt` 2. Run migrations: `python manage.py makemigrations` `python manage.py migrate` 3. Start the server: `python manage.py runserver`
+### How to Run the Project: 1. Install dependencies: `pip install -r requirements.txt` 2. Run migrations: `python manage.py makemigrations` `python manage.py migrate` 3. Start the server: `python manage.py runserver`
 
-# Testing APIs: - Use tools like **Postman**, **Insomnia**, or **cURL** to test the API endpoints. - You can also use the **DRF Browsable API** by navigating to the URLs in the browser.
+### Testing APIs: - Use tools like **Postman**, **Insomnia**, or **cURL** to test the API endpoints. - You can also use the **DRF Browsable API** by navigating to the URLs in the browser.
